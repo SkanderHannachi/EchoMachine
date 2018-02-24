@@ -977,7 +977,7 @@
       <name>Pad77</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
       <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="4.0" y="2.4"/>
+      <point x="4.1" y="2.6"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -1482,53 +1482,6 @@
       </height>
       <invert>false</invert>
     </org.diylc.components.passive.RadialElectrolytic>
-    <org.diylc.components.passive.RadialCeramicDiskCapacitor>
-      <name>2A182J</name>
-      <alpha>127</alpha>
-      <length>
-        <value>5.0</value>
-        <unit class="org.diylc.core.measures.SizeUnit">mm</unit>
-      </length>
-      <width>
-        <value>1.8</value>
-        <unit class="org.diylc.core.measures.SizeUnit">mm</unit>
-      </width>
-      <points>
-        <java.awt.Point x="5.0" y="2.4"/>
-        <java.awt.Point x="5.0" y="2.5"/>
-      </points>
-      <bodyColor>
-        <red>0</red>
-        <green>102</green>
-        <blue>0</blue>
-        <alpha>255</alpha>
-      </bodyColor>
-      <borderColor>
-        <red>168</red>
-        <green>161</green>
-        <blue>98</blue>
-        <alpha>255</alpha>
-      </borderColor>
-      <labelColor>
-        <red>255</red>
-        <green>255</green>
-        <blue>153</blue>
-        <alpha>255</alpha>
-      </labelColor>
-      <leadColor>
-        <red>204</red>
-        <green>204</green>
-        <blue>204</blue>
-        <alpha>255</alpha>
-      </leadColor>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <pinSpacing>
-        <value>0.1</value>
-        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
-      </pinSpacing>
-      <voltage>_63V</voltage>
-    </org.diylc.components.passive.RadialCeramicDiskCapacitor>
     <org.diylc.components.passive.RadialElectrolytic>
       <name>C1</name>
       <alpha>97</alpha>
@@ -1785,7 +1738,7 @@
         <unit class="org.diylc.core.measures.SizeUnit">in</unit>
       </length>
       <points>
-        <java.awt.Point x="4.0" y="2.4"/>
+        <java.awt.Point x="4.1" y="2.6"/>
         <java.awt.Point x="4.1" y="2.5"/>
       </points>
       <bodyColor>
@@ -1960,7 +1913,7 @@
       <gauge>_22</gauge>
     </org.diylc.components.connectivity.HookupWire>
     <org.diylc.components.semiconductors.DIL__IC>
-      <name>IC1</name>
+      <name>TL071</name>
       <alpha>80</alpha>
       <value></value>
       <orientation>DEFAULT</orientation>
@@ -2301,7 +2254,7 @@
       <display>VALUE</display>
       <flipStanding>false</flipStanding>
       <value>
-        <value>10.0</value>
+        <value>47.0</value>
         <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
       </value>
       <power>HALF</power>
@@ -2357,6 +2310,53 @@
       <colorCode>_5_BAND</colorCode>
       <shape>Standard</shape>
     </org.diylc.components.passive.Resistor>
+    <org.diylc.components.passive.RadialCeramicDiskCapacitor>
+      <name>680</name>
+      <alpha>127</alpha>
+      <length>
+        <value>5.0</value>
+        <unit class="org.diylc.core.measures.SizeUnit">mm</unit>
+      </length>
+      <width>
+        <value>1.8</value>
+        <unit class="org.diylc.core.measures.SizeUnit">mm</unit>
+      </width>
+      <points>
+        <java.awt.Point x="5.0" y="2.5"/>
+        <java.awt.Point x="5.0" y="2.4"/>
+      </points>
+      <bodyColor>
+        <red>240</red>
+        <green>230</green>
+        <blue>140</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>168</red>
+        <green>161</green>
+        <blue>98</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </labelColor>
+      <leadColor>
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+        <alpha>255</alpha>
+      </leadColor>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <pinSpacing>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </pinSpacing>
+      <voltage>_63V</voltage>
+    </org.diylc.components.passive.RadialCeramicDiskCapacitor>
     <org.diylc.components.misc.Label>
       <name>L1</name>
       <point x="5.3" y="2.0"/>
@@ -2693,6 +2693,17 @@
       <name>L6</name>
       <point x="3.5" y="2.8"/>
       <text>2X104 going to GND</text>
+      <font reference="../../org.diylc.components.misc.Label[4]/font"/>
+      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L7</name>
+      <point x="5.9" y="3.7"/>
+      <text>put a ceramic between pin 9 &amp; 10 to make the sound brither</text>
       <font reference="../../org.diylc.components.misc.Label[4]/font"/>
       <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
       <center>false</center>
