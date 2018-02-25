@@ -26,10 +26,10 @@
       <value></value>
       <controlPoints>
         <java.awt.Point x="3.9" y="1.9"/>
-        <java.awt.Point x="5.6" y="3.4"/>
+        <java.awt.Point x="5.7" y="3.4"/>
       </controlPoints>
       <firstPoint x="3.9" y="1.9"/>
-      <secondPoint x="5.6" y="3.4"/>
+      <secondPoint x="5.7" y="3.4"/>
       <boardColor>
         <red>248</red>
         <green>235</green>
@@ -216,16 +216,6 @@
       <point x="4.6" y="2.0"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
-      <name>Cut11</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="4.7" y="2.2"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
       <name>Cut12</name>
       <size>
         <value>0.08</value>
@@ -250,9 +240,9 @@
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut13</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[11]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[11]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[11]/borderColor"/>
       <boardColor reference="../../org.diylc.components.boards.VeroBoard[2]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
       <holeSpacing reference="../../org.diylc.components.boards.VeroBoard[2]/spacing"/>
@@ -260,9 +250,9 @@
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut14</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[11]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[11]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[11]/borderColor"/>
       <boardColor reference="../../org.diylc.components.boards.VeroBoard[2]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
       <holeSpacing reference="../../org.diylc.components.boards.VeroBoard[2]/spacing"/>
@@ -270,13 +260,23 @@
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut15</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[11]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[11]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[11]/borderColor"/>
       <boardColor reference="../../org.diylc.components.boards.VeroBoard[2]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
       <holeSpacing reference="../../org.diylc.components.boards.VeroBoard[2]/spacing"/>
       <point x="7.2" y="2.7"/>
+    </org.diylc.components.connectivity.TraceCut>
+    <org.diylc.components.connectivity.TraceCut>
+      <name>Cut11</name>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[11]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[11]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[11]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.boards.VeroBoard[2]/boardColor"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard[2]/spacing"/>
+      <point x="4.7" y="2.2"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad1</name>
@@ -329,7 +329,7 @@
       <name>Pad5</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
       <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="5.5" y="3.3"/>
+      <point x="5.6" y="3.3"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -338,7 +338,7 @@
       <name>Pad6</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
       <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="5.5" y="2.1"/>
+      <point x="5.6" y="2.2"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -626,7 +626,7 @@
       <name>Pad38</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
       <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="5.3" y="2.7"/>
+      <point x="5.3" y="2.8"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -977,7 +977,7 @@
       <name>Pad77</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
       <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="4.1" y="2.6"/>
+      <point x="4.0" y="2.6"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -986,7 +986,7 @@
       <name>Pad78</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
       <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="4.1" y="2.5"/>
+      <point x="4.0" y="2.5"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -996,6 +996,24 @@
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
       <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
       <point x="4.2" y="2.7"/>
+      <type>ROUND</type>
+      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
+      <layer>_1</layer>
+    </org.diylc.components.connectivity.SolderPad>
+    <org.diylc.components.connectivity.SolderPad>
+      <name>Pad80</name>
+      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
+      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <point x="5.2" y="2.1"/>
+      <type>ROUND</type>
+      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
+      <layer>_1</layer>
+    </org.diylc.components.connectivity.SolderPad>
+    <org.diylc.components.connectivity.SolderPad>
+      <name>Pad81</name>
+      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
+      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <point x="5.2" y="2.0"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -1381,7 +1399,7 @@
       </width>
       <points>
         <java.awt.Point x="5.3" y="3.2"/>
-        <java.awt.Point x="5.3" y="2.7"/>
+        <java.awt.Point x="5.3" y="2.8"/>
       </points>
       <bodyColor>
         <red>130</red>
@@ -1707,8 +1725,8 @@
       <name>J3</name>
       <alpha>127</alpha>
       <points>
-        <java.awt.Point x="5.5" y="2.1"/>
-        <java.awt.Point x="5.5" y="3.3"/>
+        <java.awt.Point x="5.6" y="2.2"/>
+        <java.awt.Point x="5.6" y="3.3"/>
       </points>
       <bodyColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
       <borderColor reference="../../org.diylc.components.connectivity.Jumper/borderColor"/>
@@ -1738,8 +1756,8 @@
         <unit class="org.diylc.core.measures.SizeUnit">in</unit>
       </length>
       <points>
-        <java.awt.Point x="4.1" y="2.6"/>
-        <java.awt.Point x="4.1" y="2.5"/>
+        <java.awt.Point x="4.0" y="2.6"/>
+        <java.awt.Point x="4.0" y="2.5"/>
       </points>
       <bodyColor>
         <red>107</red>
@@ -1949,7 +1967,7 @@
         <blue>89</blue>
         <alpha>255</alpha>
       </borderColor>
-      <labelColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <labelColor reference="../../org.diylc.components.connectivity.TraceCut[11]/fillColor"/>
       <indentColor>
         <red>89</red>
         <green>89</green>
@@ -2063,7 +2081,7 @@
         <java.awt.Point x="7.5" y="2.6"/>
         <java.awt.Point x="7.5" y="2.8"/>
       </points>
-      <bodyColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <bodyColor reference="../../org.diylc.components.connectivity.TraceCut[11]/fillColor"/>
       <borderColor reference="../../org.diylc.components.connectivity.SolderPad/color"/>
       <labelColor reference="../../org.diylc.components.connectivity.SolderPad/color"/>
       <leadColor>
@@ -2357,9 +2375,38 @@
       </pinSpacing>
       <voltage>_63V</voltage>
     </org.diylc.components.passive.RadialCeramicDiskCapacitor>
+    <org.diylc.components.connectivity.Jumper>
+      <name>J1</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="5.2" y="2.0"/>
+        <java.awt.Point x="5.2" y="2.1"/>
+      </points>
+      <bodyColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor reference="../borderColor"/>
+      <leadColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </leadColor>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+    </org.diylc.components.connectivity.Jumper>
     <org.diylc.components.misc.Label>
       <name>L1</name>
-      <point x="5.3" y="2.0"/>
+      <point x="5.4" y="2.1"/>
       <text>T1</text>
       <font>
         <attributes>
@@ -2405,7 +2452,7 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L1</name>
-      <point x="5.4" y="2.1"/>
+      <point x="5.5" y="2.2"/>
       <text>T2</text>
       <font>
         <attributes>
@@ -2456,7 +2503,7 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L1</name>
-      <point x="5.3" y="2.2"/>
+      <point x="5.4" y="2.3"/>
       <text>T3</text>
       <font>
         <attributes>
