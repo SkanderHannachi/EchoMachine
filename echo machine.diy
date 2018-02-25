@@ -25,10 +25,10 @@
       <alpha>127</alpha>
       <value></value>
       <controlPoints>
-        <java.awt.Point x="3.9" y="1.9"/>
+        <java.awt.Point x="3.9" y="2.0"/>
         <java.awt.Point x="5.7" y="3.4"/>
       </controlPoints>
-      <firstPoint x="3.9" y="1.9"/>
+      <firstPoint x="3.9" y="2.0"/>
       <secondPoint x="5.7" y="3.4"/>
       <boardColor>
         <red>248</red>
@@ -206,16 +206,6 @@
       <point x="4.7" y="3.2"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
-      <name>Cut10</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="4.6" y="2.0"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
       <name>Cut12</name>
       <size>
         <value>0.08</value>
@@ -240,9 +230,9 @@
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut13</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[11]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[11]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[11]/borderColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[10]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[10]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[10]/borderColor"/>
       <boardColor reference="../../org.diylc.components.boards.VeroBoard[2]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
       <holeSpacing reference="../../org.diylc.components.boards.VeroBoard[2]/spacing"/>
@@ -250,9 +240,9 @@
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut14</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[11]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[11]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[11]/borderColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[10]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[10]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[10]/borderColor"/>
       <boardColor reference="../../org.diylc.components.boards.VeroBoard[2]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
       <holeSpacing reference="../../org.diylc.components.boards.VeroBoard[2]/spacing"/>
@@ -260,9 +250,9 @@
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut15</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[11]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[11]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[11]/borderColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[10]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[10]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[10]/borderColor"/>
       <boardColor reference="../../org.diylc.components.boards.VeroBoard[2]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
       <holeSpacing reference="../../org.diylc.components.boards.VeroBoard[2]/spacing"/>
@@ -270,13 +260,45 @@
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut11</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[11]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[11]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[11]/borderColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[10]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[10]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[10]/borderColor"/>
       <boardColor reference="../../org.diylc.components.boards.VeroBoard[2]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
       <holeSpacing reference="../../org.diylc.components.boards.VeroBoard[2]/spacing"/>
       <point x="4.7" y="2.2"/>
+    </org.diylc.components.connectivity.TraceCut>
+    <org.diylc.components.connectivity.CurvedTrace>
+      <name>Trace1</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="2.8" y="3.3"/>
+        <java.awt.Point x="3.3" y="3.3"/>
+        <java.awt.Point x="3.3" y="4.3"/>
+        <java.awt.Point x="3.8" y="4.3"/>
+      </controlPoints>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <pointCount>FOUR</pointCount>
+      <size>
+        <value>1.0</value>
+        <unit class="org.diylc.core.measures.SizeUnit">mm</unit>
+      </size>
+      <layer>_1</layer>
+    </org.diylc.components.connectivity.CurvedTrace>
+    <org.diylc.components.connectivity.TraceCut>
+      <name>Cut16</name>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[10]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[10]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[10]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.boards.VeroBoard[2]/boardColor"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard[2]/spacing"/>
+      <point x="4.6" y="2.1"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad1</name>
@@ -284,12 +306,7 @@
         <value>0.09</value>
         <unit class="org.diylc.core.measures.SizeUnit">in</unit>
       </size>
-      <color>
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-        <alpha>255</alpha>
-      </color>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.5" y="2.7"/>
       <type>ROUND</type>
       <holeSize>
@@ -301,7 +318,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad2</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.5" y="2.6"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -310,7 +327,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad3</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.2" y="2.6"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -319,7 +336,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad4</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.2" y="2.3"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -328,7 +345,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad5</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="5.6" y="3.3"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -337,7 +354,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad6</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="5.6" y="2.2"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -346,7 +363,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad7</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.0" y="3.3"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -355,7 +372,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad8</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.0" y="3.2"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -364,7 +381,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad9</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.0" y="2.3"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -373,7 +390,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad10</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.0" y="2.2"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -382,8 +399,8 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad11</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="4.0" y="2.0"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
+      <point x="4.0" y="2.1"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -391,7 +408,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad12</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="7.5" y="2.6"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -400,7 +417,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad13</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="7.5" y="2.8"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -409,7 +426,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad14</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="7.4" y="2.7"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -418,7 +435,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad15</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="7.1" y="2.7"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -427,7 +444,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad16</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="7.1" y="2.6"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -436,7 +453,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad17</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="7.4" y="2.6"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -445,7 +462,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad18</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="7.4" y="2.5"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -454,7 +471,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad19</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="7.1" y="2.5"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -463,7 +480,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad20</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="7.1" y="2.4"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -472,7 +489,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad21</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="7.4" y="2.4"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -481,7 +498,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad22</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="7.0" y="2.5"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -490,7 +507,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad23</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="6.8" y="2.3"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -499,7 +516,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad24</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="6.7" y="2.3"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -508,7 +525,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad25</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="6.7" y="2.5"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -517,7 +534,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad26</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="6.9" y="2.5"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -526,7 +543,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad27</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="6.9" y="2.8"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -535,7 +552,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad28</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.1" y="2.7"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -544,7 +561,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad29</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.1" y="3.2"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -553,7 +570,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad30</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.2" y="3.1"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -562,7 +579,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad31</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.6" y="3.2"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -571,7 +588,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad32</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.8" y="3.2"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -580,7 +597,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad33</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="5.3" y="3.2"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -589,7 +606,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad34</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="5.1" y="3.1"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -598,7 +615,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad35</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="5.1" y="3.0"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -607,7 +624,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad36</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="5.1" y="2.8"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -616,7 +633,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad37</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="5.1" y="2.9"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -625,7 +642,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad38</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="5.3" y="2.8"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -634,7 +651,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad39</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="5.1" y="2.5"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -643,7 +660,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad40</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="5.4" y="2.4"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -652,7 +669,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad41</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="5.0" y="2.5"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -661,7 +678,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad42</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="5.0" y="2.4"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -670,7 +687,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad43</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="5.1" y="2.4"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -679,8 +696,8 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad44</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="5.1" y="2.0"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
+      <point x="5.1" y="2.1"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -688,8 +705,8 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad45</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="4.8" y="2.0"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
+      <point x="4.8" y="2.1"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -697,26 +714,8 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad46</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="4.4" y="2.0"/>
-      <type>ROUND</type>
-      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
-      <layer>_1</layer>
-    </org.diylc.components.connectivity.SolderPad>
-    <org.diylc.components.connectivity.SolderPad>
-      <name>Pad47</name>
-      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="4.1" y="2.0"/>
-      <type>ROUND</type>
-      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
-      <layer>_1</layer>
-    </org.diylc.components.connectivity.SolderPad>
-    <org.diylc.components.connectivity.SolderPad>
-      <name>Pad48</name>
-      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="4.1" y="2.3"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
+      <point x="4.4" y="2.1"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -724,7 +723,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad49</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.3" y="2.2"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -733,7 +732,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad50</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.3" y="2.3"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -742,7 +741,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad51</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.3" y="2.4"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -751,7 +750,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad52</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.6" y="2.5"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -760,7 +759,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad53</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.6" y="2.4"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -769,7 +768,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad54</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.5" y="2.3"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -778,7 +777,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad55</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.5" y="2.4"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -787,7 +786,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad56</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.6" y="2.6"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -796,7 +795,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad57</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.6" y="2.7"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -805,7 +804,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad58</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.6" y="2.8"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -814,7 +813,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad59</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.6" y="2.9"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -823,7 +822,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad60</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.6" y="3.0"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -832,7 +831,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad61</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.6" y="3.1"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -841,7 +840,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad62</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.9" y="3.1"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -850,7 +849,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad63</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.9" y="3.0"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -859,7 +858,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad64</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.9" y="2.9"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -868,7 +867,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad65</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.9" y="2.8"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -877,7 +876,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad66</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.9" y="2.7"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -886,7 +885,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad67</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.9" y="2.6"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -895,7 +894,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad68</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.9" y="2.5"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -904,7 +903,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad69</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.9" y="2.4"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -913,7 +912,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad70</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.4" y="2.7"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -922,7 +921,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad71</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.4" y="3.0"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -931,7 +930,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad72</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.3" y="2.9"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -940,7 +939,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad73</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.3" y="2.6"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -949,7 +948,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad74</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="6.6" y="2.3"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -958,7 +957,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad75</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="6.6" y="2.7"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -967,7 +966,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad76</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="6.6" y="2.6"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -976,7 +975,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad77</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.0" y="2.6"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -985,7 +984,7 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad78</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.0" y="2.5"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
@@ -994,26 +993,8 @@
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad79</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <point x="4.2" y="2.7"/>
-      <type>ROUND</type>
-      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
-      <layer>_1</layer>
-    </org.diylc.components.connectivity.SolderPad>
-    <org.diylc.components.connectivity.SolderPad>
-      <name>Pad80</name>
-      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="5.2" y="2.1"/>
-      <type>ROUND</type>
-      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
-      <layer>_1</layer>
-    </org.diylc.components.connectivity.SolderPad>
-    <org.diylc.components.connectivity.SolderPad>
-      <name>Pad81</name>
-      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="5.2" y="2.0"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -1509,7 +1490,7 @@
       </length>
       <points>
         <java.awt.Point x="5.1" y="2.4"/>
-        <java.awt.Point x="5.1" y="2.0"/>
+        <java.awt.Point x="5.1" y="2.1"/>
       </points>
       <bodyColor>
         <red>107</red>
@@ -1573,8 +1554,8 @@
         <unit class="org.diylc.core.measures.SizeUnit">mm</unit>
       </width>
       <points>
-        <java.awt.Point x="4.8" y="2.0"/>
-        <java.awt.Point x="4.4" y="2.0"/>
+        <java.awt.Point x="4.8" y="2.1"/>
+        <java.awt.Point x="4.4" y="2.1"/>
       </points>
       <bodyColor>
         <red>130</red>
@@ -1849,10 +1830,10 @@
       <name>W3</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="3.8" y="1.3"/>
-        <java.awt.Point x="3.6" y="1.7"/>
-        <java.awt.Point x="3.9" y="1.6"/>
-        <java.awt.Point x="4.0" y="2.0"/>
+        <java.awt.Point x="3.8" y="1.4"/>
+        <java.awt.Point x="3.6" y="1.8"/>
+        <java.awt.Point x="3.9" y="1.7"/>
+        <java.awt.Point x="4.0" y="2.1"/>
       </controlPoints>
       <color>
         <red>255</red>
@@ -1863,55 +1844,6 @@
       <pointCount>FOUR</pointCount>
       <gauge>_22</gauge>
     </org.diylc.components.connectivity.HookupWire>
-    <org.diylc.components.passive.Resistor>
-      <name>1M</name>
-      <alpha>99</alpha>
-      <length>
-        <value>6.0</value>
-        <unit class="org.diylc.core.measures.SizeUnit">mm</unit>
-      </length>
-      <width>
-        <value>1.7</value>
-        <unit class="org.diylc.core.measures.SizeUnit">mm</unit>
-      </width>
-      <points>
-        <java.awt.Point x="4.1" y="2.0"/>
-        <java.awt.Point x="4.1" y="2.3"/>
-      </points>
-      <bodyColor>
-        <red>130</red>
-        <green>207</green>
-        <blue>253</blue>
-        <alpha>255</alpha>
-      </bodyColor>
-      <borderColor>
-        <red>91</red>
-        <green>144</green>
-        <blue>177</blue>
-        <alpha>255</alpha>
-      </borderColor>
-      <labelColor>
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-        <alpha>255</alpha>
-      </labelColor>
-      <leadColor>
-        <red>204</red>
-        <green>204</green>
-        <blue>204</blue>
-        <alpha>255</alpha>
-      </leadColor>
-      <display>VALUE</display>
-      <flipStanding>false</flipStanding>
-      <value>
-        <value>1.0</value>
-        <unit class="org.diylc.core.measures.ResistanceUnit">M</unit>
-      </value>
-      <power>HALF</power>
-      <colorCode>_5_BAND</colorCode>
-      <shape>Standard</shape>
-    </org.diylc.components.passive.Resistor>
     <org.diylc.components.connectivity.HookupWire>
       <name>W3</name>
       <alpha>127</alpha>
@@ -1967,7 +1899,7 @@
         <blue>89</blue>
         <alpha>255</alpha>
       </borderColor>
-      <labelColor reference="../../org.diylc.components.connectivity.TraceCut[11]/fillColor"/>
+      <labelColor reference="../../org.diylc.components.connectivity.TraceCut[10]/fillColor"/>
       <indentColor>
         <red>89</red>
         <green>89</green>
@@ -2081,9 +2013,9 @@
         <java.awt.Point x="7.5" y="2.6"/>
         <java.awt.Point x="7.5" y="2.8"/>
       </points>
-      <bodyColor reference="../../org.diylc.components.connectivity.TraceCut[11]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <labelColor reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <bodyColor reference="../../org.diylc.components.connectivity.TraceCut[10]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
+      <labelColor reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <leadColor>
         <red>0</red>
         <green>0</green>
@@ -2375,35 +2307,6 @@
       </pinSpacing>
       <voltage>_63V</voltage>
     </org.diylc.components.passive.RadialCeramicDiskCapacitor>
-    <org.diylc.components.connectivity.Jumper>
-      <name>J1</name>
-      <alpha>127</alpha>
-      <points>
-        <java.awt.Point x="5.2" y="2.0"/>
-        <java.awt.Point x="5.2" y="2.1"/>
-      </points>
-      <bodyColor>
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-        <alpha>255</alpha>
-      </bodyColor>
-      <borderColor>
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-        <alpha>255</alpha>
-      </borderColor>
-      <labelColor reference="../borderColor"/>
-      <leadColor>
-        <red>0</red>
-        <green>0</green>
-        <blue>255</blue>
-        <alpha>255</alpha>
-      </leadColor>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-    </org.diylc.components.connectivity.Jumper>
     <org.diylc.components.misc.Label>
       <name>L1</name>
       <point x="5.4" y="2.1"/>
@@ -2592,7 +2495,7 @@
           </entry>
         </attributes>
       </font>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <center>false</center>
       <horizontalAlignment>CENTER</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
@@ -2638,7 +2541,7 @@
           </entry>
         </attributes>
       </font>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <center>false</center>
       <horizontalAlignment>CENTER</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
@@ -2684,7 +2587,7 @@
           </entry>
         </attributes>
       </font>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <center>false</center>
       <horizontalAlignment>CENTER</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
@@ -2730,7 +2633,7 @@
           </entry>
         </attributes>
       </font>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <center>false</center>
       <horizontalAlignment>CENTER</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
@@ -2741,7 +2644,7 @@
       <point x="3.5" y="2.8"/>
       <text>2X104 going to GND</text>
       <font reference="../../org.diylc.components.misc.Label[4]/font"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <center>false</center>
       <horizontalAlignment>CENTER</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
@@ -2752,7 +2655,7 @@
       <point x="5.9" y="3.7"/>
       <text>put a ceramic between pin 9 &amp; 10 to make the sound brither</text>
       <font reference="../../org.diylc.components.misc.Label[4]/font"/>
-      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <center>false</center>
       <horizontalAlignment>CENTER</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
