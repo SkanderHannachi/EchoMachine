@@ -291,14 +291,35 @@
       <layer>_1</layer>
     </org.diylc.components.connectivity.CurvedTrace>
     <org.diylc.components.connectivity.TraceCut>
-      <name>Cut16</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[10]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[10]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[10]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard[2]/boardColor"/>
+      <name>Cut10</name>
+      <size>
+        <value>0.08</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </size>
+      <fillColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </fillColor>
+      <borderColor>
+        <red>255</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <boardColor>
+        <red>248</red>
+        <green>235</green>
+        <blue>179</blue>
+        <alpha>255</alpha>
+      </boardColor>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard[2]/spacing"/>
-      <point x="4.6" y="2.1"/>
+      <holeSpacing>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </holeSpacing>
+      <point x="4.7" y="2.1"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.SolderPad>
       <name>Pad1</name>
@@ -706,7 +727,7 @@
       <name>Pad45</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
       <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
-      <point x="4.8" y="2.1"/>
+      <point x="4.9" y="2.1"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -715,7 +736,7 @@
       <name>Pad46</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
       <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
-      <point x="4.4" y="2.1"/>
+      <point x="4.5" y="2.1"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -1554,8 +1575,8 @@
         <unit class="org.diylc.core.measures.SizeUnit">mm</unit>
       </width>
       <points>
-        <java.awt.Point x="4.8" y="2.1"/>
-        <java.awt.Point x="4.4" y="2.1"/>
+        <java.awt.Point x="4.9" y="2.1"/>
+        <java.awt.Point x="4.5" y="2.1"/>
       </points>
       <bodyColor>
         <red>130</red>
@@ -2314,24 +2335,24 @@
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>family</awt-text-attribute>
-            <string>Tahoma</string>
-          </entry>
-          <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
-            <float>2.0</float>
-          </entry>
-          <entry>
             <awt-text-attribute>transform</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
           <entry>
             <awt-text-attribute>superscript</awt-text-attribute>
             <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <float>2.0</float>
           </entry>
           <entry>
             <awt-text-attribute>posture</awt-text-attribute>
@@ -2342,7 +2363,7 @@
             <float>14.0</float>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -2360,24 +2381,24 @@
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>family</awt-text-attribute>
-            <string>Tahoma</string>
-          </entry>
-          <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
-            <float>2.0</float>
-          </entry>
-          <entry>
             <awt-text-attribute>transform</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
           <entry>
             <awt-text-attribute>superscript</awt-text-attribute>
             <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <float>2.0</float>
           </entry>
           <entry>
             <awt-text-attribute>posture</awt-text-attribute>
@@ -2388,7 +2409,7 @@
             <float>14.0</float>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -2411,24 +2432,24 @@
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>family</awt-text-attribute>
-            <string>Tahoma</string>
-          </entry>
-          <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
-            <float>2.0</float>
-          </entry>
-          <entry>
             <awt-text-attribute>transform</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
           <entry>
             <awt-text-attribute>superscript</awt-text-attribute>
             <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <float>2.0</float>
           </entry>
           <entry>
             <awt-text-attribute>posture</awt-text-attribute>
@@ -2439,7 +2460,7 @@
             <float>14.0</float>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -2462,23 +2483,23 @@
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>family</awt-text-attribute>
-            <string>Tahoma</string>
-          </entry>
-          <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
-            <null/>
-          </entry>
-          <entry>
             <awt-text-attribute>transform</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
           <entry>
             <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -2490,7 +2511,7 @@
             <float>14.0</float>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -2508,24 +2529,24 @@
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>family</awt-text-attribute>
-            <string>Tahoma</string>
-          </entry>
-          <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
-            <float>2.0</float>
-          </entry>
-          <entry>
             <awt-text-attribute>transform</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
           <entry>
             <awt-text-attribute>superscript</awt-text-attribute>
             <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <float>2.0</float>
           </entry>
           <entry>
             <awt-text-attribute>posture</awt-text-attribute>
@@ -2536,7 +2557,7 @@
             <float>14.0</float>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -2550,28 +2571,28 @@
     <org.diylc.components.misc.Label>
       <name>L4</name>
       <point x="4.7" y="3.5"/>
-      <text>ECHO Machine</text>
+      <text>ECHO MiniMachine</text>
       <font>
         <attributes>
-          <entry>
-            <awt-text-attribute>family</awt-text-attribute>
-            <string>Tahoma</string>
-          </entry>
-          <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
-            <float>2.0</float>
-          </entry>
           <entry>
             <awt-text-attribute>transform</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
           <entry>
             <awt-text-attribute>superscript</awt-text-attribute>
             <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <float>2.0</float>
           </entry>
           <entry>
             <awt-text-attribute>posture</awt-text-attribute>
@@ -2582,7 +2603,7 @@
             <float>14.0</float>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -2600,24 +2621,24 @@
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>family</awt-text-attribute>
-            <string>Tahoma</string>
-          </entry>
-          <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
-            <float>2.0</float>
-          </entry>
-          <entry>
             <awt-text-attribute>transform</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
             <null/>
           </entry>
           <entry>
             <awt-text-attribute>superscript</awt-text-attribute>
             <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <float>2.0</float>
           </entry>
           <entry>
             <awt-text-attribute>posture</awt-text-attribute>
@@ -2628,7 +2649,7 @@
             <float>14.0</float>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>tracking</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -2653,7 +2674,18 @@
     <org.diylc.components.misc.Label>
       <name>L7</name>
       <point x="5.9" y="3.7"/>
-      <text>put a ceramic between pin 9 &amp; 10 to make the sound brither</text>
+      <text>put a ceramic between pin 9 &amp; 10 to make the sound brighter</text>
+      <font reference="../../org.diylc.components.misc.Label[4]/font"/>
+      <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L8</name>
+      <point x="5.6" y="3.5"/>
+      <text>13X17</text>
       <font reference="../../org.diylc.components.misc.Label[4]/font"/>
       <color reference="../../org.diylc.components.connectivity.CurvedTrace/color"/>
       <center>false</center>
@@ -2668,23 +2700,23 @@
   <font>
     <attributes>
       <entry>
-        <awt-text-attribute>family</awt-text-attribute>
-        <string>Tahoma</string>
-      </entry>
-      <entry>
-        <awt-text-attribute>weight</awt-text-attribute>
-        <null/>
-      </entry>
-      <entry>
         <awt-text-attribute>transform</awt-text-attribute>
         <null/>
       </entry>
       <entry>
-        <awt-text-attribute>tracking</awt-text-attribute>
+        <awt-text-attribute>family</awt-text-attribute>
+        <string>Tahoma</string>
+      </entry>
+      <entry>
+        <awt-text-attribute>width</awt-text-attribute>
         <null/>
       </entry>
       <entry>
         <awt-text-attribute>superscript</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>weight</awt-text-attribute>
         <null/>
       </entry>
       <entry>
@@ -2696,7 +2728,7 @@
         <float>14.0</float>
       </entry>
       <entry>
-        <awt-text-attribute>width</awt-text-attribute>
+        <awt-text-attribute>tracking</awt-text-attribute>
         <null/>
       </entry>
     </attributes>
